@@ -3,59 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aman Arora | Senior Technical Recruiter</title>
+    <title>Aman Arora | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
-        .container { width: 80%; margin: auto; overflow: hidden; }
-        header { background: #333; color: #fff; padding: 20px; text-align: center; }
-        .section { background: #fff; margin: 20px 0; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        h1, h2 { color: #333; }
-        .contact-form { display: flex; flex-direction: column; }
-        .contact-form input, .contact-form textarea { margin: 10px 0; padding: 10px; width: 100%; }
-        .contact-form button { background: #333; color: #fff; padding: 10px; border: none; cursor: pointer; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('usa-india-handshake.jpg') no-repeat center center/cover;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .profile {
+            text-align: center;
+            padding: 50px;
+        }
+        .profile img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 24px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Aman Arora</h1>
-        <p>Senior Technical Recruiter | IT Staffing Expert</p>
+        <h1>Aman Arora | Senior Technical Recruiter</h1>
     </header>
+
     <div class="container">
-        <section class="section">
+        <div class="profile">
+            <img src="profile.jpg" alt="Aman Arora">
             <h2>About Me</h2>
-            <p>I am a Senior Technical Recruiter with extensive experience in IT staffing, specializing in Front-End React UI Engineers, SAP consultants, and C2C hiring. I have worked with XChange Software, Intone Network, and soon will be joining Signature IT World.</p>
-        </section>
-        <section class="section">
-            <h2>Experience</h2>
+            <p>I am Aman Arora, a Senior Technical Recruiter with expertise in IT staffing. I have worked with multiple clients, including direct clients, prime vendors, BFSI, and federal & state government clients.</p>
+        </div>
+
+        <div class="section">
+            <h2>IT Roles I Specialize In</h2>
             <ul>
-                <li><strong>XChange Software/Intone Network</strong> (Present - Feb 2025)</li>
-                <li><strong>Signature IT World</strong> (Joining Soon)</li>
-                <li>Expertise in C2C, Direct Clients, and Implementation Partner hiring</li>
+                <li>Front-End & Back-End Development</li>
+                <li>Full-Stack Engineering</li>
+                <li>DevOps & Cloud Computing</li>
+                <li>Data Science & AI</li>
+                <li>QA & Automation Testing</li>
+                <li>SAP & Enterprise Solutions</li>
             </ul>
-        </section>
-        <section class="section">
-            <h2>Projects & Collaborations</h2>
-            <p>Looking to collaborate with HCL and other implementation partners for recruitment consulting.</p>
-        </section>
-        <section class="section">
-            <h2>Skills</h2>
+        </div>
+
+        <div class="section">
+            <h2>Clients & Vendors</h2>
             <ul>
-                <li>Technical Recruitment</li>
-                <li>IT Staffing</li>
-                <li>Salesforce</li>
-                <li>Business Development</li>
-                <li>Client Collaboration</li>
+                <li>Direct Clients</li>
+                <li>Prime Vendors</li>
+                <li>BFSI Clients</li>
+                <li>Federal & State Government Clients</li>
             </ul>
-        </section>
-        <section class="section">
+        </div>
+
+        <div class="section">
+            <h2>Key Achievements</h2>
+            <ul>
+                <li>Successfully placed hundreds of IT professionals</li>
+                <li>Worked with top industry vendors & clients</li>
+                <li>Expert in C2C, W2, and CTH hiring models</li>
+            </ul>
+        </div>
+
+        <div class="section contact">
             <h2>Contact Me</h2>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
+            <a href="https://www.linkedin.com/in/aman-arora" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:aman@example.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.instagram.com/_arora_amn_/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
     </div>
+
+    <footer>
+        <p>&copy; 2025 Aman Arora. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
